@@ -12,7 +12,7 @@ const navigate = useNavigate();
   const completeQuiz = useProgressStore((state) => state.completeQuiz);
 
   useEffect(() => {
-    fetch('/src/data/quizzes.json')
+    fetch('/data/quizzes.json')
       .then((res) => res.json())
       .then((data) => {
         const match = data.find((q: any) => q.courseId === courseId);

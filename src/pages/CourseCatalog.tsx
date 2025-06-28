@@ -16,7 +16,7 @@ const CourseCatalog = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/src/data/courses.json')
+    fetch('/data/courses.json')
       .then((res) => res.json())
       .then((data) => {
         setCourses(data);

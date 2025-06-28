@@ -18,14 +18,14 @@ const CourseDetail = () => {
 const progress = useProgressStore((state) => state.progress[courseId!] || {});
 const navigate = useNavigate();
   useEffect(() => {
-    fetch('/src/data/courses.json')
+    fetch('/data/courses.json')
       .then((res) => res.json())
       .then((data) => {
         const found = data.find((c: any) => c.id === courseId);
         setCourse(found);
       });
 
-    fetch('/src/data/lessons.json')
+    fetch('/data/lessons.json')
       .then((res) => res.json())
       .then((data) => {
         const match = data.find((l: any) => l.courseId === courseId);
