@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "HTML CSS",
+    "instructor": "John Doe",
+    "thumbnail": "../../public/img/html.png",
+    "description": "Learn HTML CSS from scratch.",
+    "category": "HTML CSS",
+    "totalLessons": 3
+  },
+  {
+    "id": "2",
+    "title": "JavaScript Basics",
+    "instructor": "John Doe",
+    "thumbnail": "../../public/img/js.jpg",
+    "description": "Learn JavaScript from scratch.",
+    "category": "JavaScript",
+    "totalLessons": 3
+  },
+  {
+    "id": "3",
+    "title": "React Js",
+    "instructor": "John Doe",
+    "thumbnail": "../../public/img/react.png",
+    "description": "Learn JavaScript from scratch.",
+    "category": "React",
+    "totalLessons": 3
+  },
+  {
+    "id": "4",
+    "title": "Next Js",
+    "instructor": "John Doe",
+    "thumbnail": "../../public/img/next.jpg",
+    "description": "Learn JavaScript from scratch.",
+    "category": "Next",
+    "totalLessons": 3
+  }
+]

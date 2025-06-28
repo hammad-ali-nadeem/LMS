@@ -1,0 +1,62 @@
+[
+  {
+    "courseId": "1",
+    "questions": [
+      {
+        "question": "What does HTML stand for?",
+        "options": ["HyperText Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+        "correctAnswer": "HyperText Markup Language"
+      },
+      {
+        "question": "Which CSS property controls the text size?",
+        "options": ["font-style", "text-size", "font-size"],
+        "correctAnswer": "font-size"
+      }
+    ]
+  },
+  {
+    "courseId": "2",
+    "questions": [
+      {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "options": ["var", "dim", "int"],
+        "correctAnswer": "var"
+      },
+      {
+        "question": "What is used to loop through code a specific number of times?",
+        "options": ["if", "for", "switch"],
+        "correctAnswer": "for"
+      }
+    ]
+  },
+  {
+    "courseId": "3",
+    "questions": [
+      {
+        "question": "Which hook is used to manage state in a React component?",
+        "options": ["useState", "useEffect", "useMemo"],
+        "correctAnswer": "useState"
+      },
+      {
+        "question": "What is a React component?",
+        "options": ["A CSS selector", "A JavaScript function", "An HTML tag"],
+        "correctAnswer": "A JavaScript function"
+      }
+    ]
+  },
+  {
+    "courseId": "4",
+    "questions": [
+      {
+        "question": "Which command is used to start a Next.js dev server?",
+        "options": ["npm run dev", "npm start", "node server.js"],
+        "correctAnswer": "npm run dev"
+      },
+      {
+        "question": "What is SSR in Next.js?",
+        "options": ["Server-Side Rendering", "Same Site Routing", "Static Style Rendering"],
+        "correctAnswer": "Server-Side Rendering"
+      }
+    ]
+  }
+]

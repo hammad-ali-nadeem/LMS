@@ -1,0 +1,34 @@
+[
+  {
+    "courseId": "1",
+    "lessons": [
+      { "id": "1-1", "title": "Introduction to HTML", "videoUrl": "https://www.youtube.com/watch?v=it1rTvBcfRg" },
+      { "id": "1-2", "title": "CSS Basics", "videoUrl": "https://www.youtube.com/watch?v=OEV8gMkCHXQ" },
+      { "id": "1-3", "title": "Positioning & Flexbox", "videoUrl": "https://www.youtube.com/watch?v=phWxA89Dy94" }
+    ]
+  },
+  {
+    "courseId": "2",
+    "lessons": [
+      { "id": "2-1", "title": "JS Syntax & Variables", "videoUrl": "https://www.youtube.com/watch?v=4BBlc_qDs8g" },
+      { "id": "2-2", "title": "Functions & Loops", "videoUrl": "https://www.youtube.com/watch?v=s9wW2PpJsmQ" },
+      { "id": "2-3", "title": "DOM Manipulation", "videoUrl": "https://www.youtube.com/watch?v=KShnPYN-voI&t=96s" }
+    ]
+  },
+  {
+    "courseId": "3",
+    "lessons": [
+      { "id": "3-1", "title": "Intro to React", "videoUrl": "https://www.youtube.com/watch?v=Tn6-PIqc4UM" },
+      { "id": "3-2", "title": "Components & Props", "videoUrl": "https://www.youtube.com/watch?v=uvEAvxWvwOs" },
+      { "id": "3-3", "title": "useState & useEffect", "videoUrl": "https://www.youtube.com/watch?v=YxkcMszKEYY" }
+    ]
+  },
+  {
+    "courseId": "4",
+    "lessons": [
+      { "id": "4-1", "title": "What is Next.js?", "videoUrl": "https://www.youtube.com/watch?v=nresBvpaVH0" },
+      { "id": "4-2", "title": "Pages & Routing", "videoUrl": "https://www.youtube.com/watch?v=vwg4Wrk-kWE" },
+      { "id": "4-3", "title": "Data Fetching & SSR", "videoUrl": "https://www.youtube.com/watch?v=fjTDclQ6Ytc" }
+    ]
+  }
+]
